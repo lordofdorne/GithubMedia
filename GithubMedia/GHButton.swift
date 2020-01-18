@@ -24,6 +24,7 @@ class GHButton: UIButton {
         self.backgroundColor = backgroundColor
         self.setTitle(title, for: .normal)
         configure()
+       
     }
     
     private func configure() {

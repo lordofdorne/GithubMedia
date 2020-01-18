@@ -11,6 +11,7 @@ import UIKit
 class GHTextField: UITextField {
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
     }
     required init?(coder: NSCoder) {
         fatalError("init nit implemented")
